@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 class Phase extends Component {
     constructor(props){
         super(props);
-        console.log("1. Ar First constructor runs ");
+        console.log("1. At First constructor runs ");
     }
     static getDerivedStateFromProps(){
         console.log("2. At second it runs");

@@ -9,6 +9,9 @@ import List from './components/List'
 import Friends from './components/Friends'
 import Number from './components/Number'
 import Country from './components/Country'
+import Library from './components/Library'
+import Youtube from './components/Youtube'
+import Params from './components/Params'
 
 
 // reactDom.render(<First />, document.getElementById("first"));
@@ -23,8 +26,13 @@ import Country from './components/Country'
 // ReactDOM.render(<List/>, document.getElementById("list"));
 // ReactDOM.render(<Friends/>, document.getElementById("friend"));
 // ReactDOM.render(<Fruits />, document.getElementById("fruit"));
-ReactDOM.render(<Number />, document.getElementById("number"));
-ReactDOM.render(<Country />, document.getElementById("number"));
+// ReactDOM.render(<Number />, document.getElementById("number"));
+// ReactDOM.render(<Country />, document.getElementById("number"));
+// ReactDOM.render(<Library />, document.getElementById("library"));
+// ReactDOM.render(<Youtube />, document.getElementById("library"));
+ReactDOM.render(<Params />, document.getElementById("root"));
+
+
 
 // import reportWebVitals from './reportWebVitals';
 
