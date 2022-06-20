@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import Course from "./components/Course";
 import Address from "./components/Address";
@@ -12,7 +12,9 @@ import Country from "./components/Country";
 import Library from "./components/Library";
 import Youtube from "./components/Youtube";
 import Params from "./components/Params";
+import Ucf from "./components/Ucf";
 
+ReactDOM.render(<Ucf />, document.getElementById("root"));
 // reactDom.render(<First />, document.getElementById("first"));
 // reactDom.render(<College name="NCIT" />, document.getElementById("first"));
 // reactDom.render(data, document.getElementById("first"));
@@ -21,8 +23,8 @@ import Params from "./components/Params";
 // reactDom.render(<Address province="Bagmati" tole ="Koteshwor" />, document.getElementById("address"));
 // ReactDOM.unsmountComponentAtNode(document.getElementById("phase"));
 // ReactDOM.render(<Phase />, document.getElementById("phase"));
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Phase favcol="Yellow" />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<Phase favcol="Yellow" />);
 
 // ReactDOM.render(<List/>, document.getElementById("list"));
 // ReactDOM.render(<Friends/>, document.getElementById("friend"));
