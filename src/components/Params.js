@@ -2,7 +2,7 @@ import react, { Component } from "react";
 import ReactDOM from "react-dom";
 import "../App.css";
 
-class Param extends Component {
+class Params extends Component {
   constructor() {
     super();
 
@@ -42,4 +42,4 @@ class Param extends Component {
   }
 }
 
-export default Param;
+export default Params;
