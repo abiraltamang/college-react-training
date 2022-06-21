@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import Course from './components/Course';
 import Address from './components/Address';
@@ -12,6 +12,8 @@ import Country from './components/Country'
 import Library from './components/Library'
 import Youtube from './components/Youtube'
 import Params from './components/Params'
+import Ucf from './components/Ucf'
+import UsestrictMode from './components/UsestrictMode';
 
 
 // reactDom.render(<First />, document.getElementById("first"));
@@ -30,7 +32,11 @@ import Params from './components/Params'
 // ReactDOM.render(<Country />, document.getElementById("number"));
 // ReactDOM.render(<Library />, document.getElementById("library"));
 // ReactDOM.render(<Youtube />, document.getElementById("library"));
-ReactDOM.render(<Params />, document.getElementById("root"));
+// ReactDOM.render(<Params />, document.getElementById("root"));
+// ReactDOM.render(<Ucf />, document.getElementById("root"));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<UsestrictMode/>);
 
 
 
