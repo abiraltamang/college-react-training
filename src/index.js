@@ -14,6 +14,7 @@ import Youtube from './components/Youtube'
 import Params from './components/Params'
 import Ucf from './components/Ucf'
 import UsestrictMode from './components/UsestrictMode';
+import Cf1 from './components/Cf1';
 
 
 // reactDom.render(<First />, document.getElementById("first"));
@@ -36,7 +37,7 @@ import UsestrictMode from './components/UsestrictMode';
 // ReactDOM.render(<Ucf />, document.getElementById("root"));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<UsestrictMode/>);
+root.render(<Cf1/>);
 
 
 
