@@ -5,7 +5,7 @@ export class Grandchild extends Component {
   render() {
     return (
       <div>
-        <b>Grand child commponent:</b>
+        <b>Grand child commponent</b>
         <Consumer>
           {({ data, handleClick }) => (
             <div>
