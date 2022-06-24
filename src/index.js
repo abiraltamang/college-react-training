@@ -15,7 +15,7 @@ import Params from './components/Params'
 import Ucf from './components/Ucf'
 import UsestrictMode from './components/UsestrictMode';
 import Cf1 from './components/Cf1';
-
+import Parent from './components/aboutcontext/Parent'
 
 // reactDom.render(<First />, document.getElementById("first"));
 // reactDom.render(<College name="NCIT" />, document.getElementById("first"));
@@ -36,8 +36,10 @@ import Cf1 from './components/Cf1';
 // ReactDOM.render(<Params />, document.getElementById("root"));
 // ReactDOM.render(<Ucf />, document.getElementById("root"));
 
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Cf1/>);
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Cf1/>);
+root.render(<Parent/>);
 
 
 
